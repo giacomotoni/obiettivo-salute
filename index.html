@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +15,28 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+        <style>
+            .company-card {
+                text-align: center;
+                padding: 20px;
+                border-radius: 10px;
+                transition: transform 0.3s ease-in-out;
+                height: 180px; /* Fixed height for all cards */
+            }
+            .company-card:hover {
+                transform: scale(1.05);
+            }
+            .company-logo {
+                max-width: 120px;
+                height: 80px; /* Fixed logo height for consistency */
+                object-fit: contain; /* Ensures logos maintain aspect ratio */
+            }
+            .company-name {
+                margin-top: 10px;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+        </style>
 
     </head>
     
@@ -338,7 +360,7 @@
                     </div>
                 </div>
             </section>
-
+            
 
             <section class="testimonial-section section-padding section-bg" id="section_4">
                 <div class="container">
@@ -347,60 +369,34 @@
                         <div class="col-lg-8 col-12 mx-auto">
                             <h2 class="mb-lg-3">Le nostre aziende</h2>
                             
-                                <div id="testimonial-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
-
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                           <div class="carousel-caption">
-                                                <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
-
-                                                <small class="carousel-name"><span class="carousel-name-title">Maria</span>, Boss</small>
-                                           </div>
+                            <div class="container my-5">
+                                <div class="row g-4">
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="company-card shadow p-3">
+                                            <img src="images/Fondazione-Villa-Salus.webp" class="company-logo" alt="Company 1">
+                                            <p class="company-name">Villa Salus</p>
                                         </div>
-
-                                        <div class="carousel-item">
-                                            <div class="carousel-caption">
-                                                <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
-
-                                                <small class="carousel-name"><span class="carousel-name-title">Thomas</span>, Partner</small>
-                                            </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="company-card shadow p-3">
+                                            <img src="images/Logo_Treviso.svg" class="company-logo" alt="Company 2">
+                                            <p class="company-name">Ospedale San Camillo</p>
                                         </div>
-
-                                        <div class="carousel-item">
-                                            <div class="carousel-caption">
-                                                <h4 class="carousel-title">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito charity theme</h4>
-
-                                                <small class="carousel-name"><span class="carousel-name-title">Jane</span>, Advisor</small>
-                                            </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="company-card shadow p-3">
+                                            <img src="company3.jpg" class="company-logo" alt="Company 3">
+                                            <p class="company-name">Company 3</p>
                                         </div>
-
-                                        <div class="carousel-item">
-                                            <div class="carousel-caption">
-                                                <h4 class="carousel-title">Sed leo nisl, posuere at molestie ac, suscipit auctor mauris quis metus tempor orci</h4>
-
-                                                <small class="carousel-name"><span class="carousel-name-title">Bob</span>, Entreprenuer</small>
-                                           </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="company-card shadow p-3">
+                                            <img src="company4.jpg" class="company-logo" alt="Company 4">
+                                            <p class="company-name">Company 4</p>
                                         </div>
-
-                                          <ol class="carousel-indicators">
-                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active">
-                                                    <img src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
-                                               </li>
-
-                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="1" class="">
-                                                    <img src="images/avatar/portrait-young-redhead-bearded-male.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
-                                               </li>
-
-                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="2" class="">
-                                                    <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
-                                               </li>
-
-                                               <li data-bs-target="#testimonial-carousel" data-bs-slide-to="3" class="">
-                                                    <img src="images/avatar/studio-portrait-emotional-happy-funny.jpg" class="img-fluid rounded-circle avatar-image" alt="avatar">
-                                               </li>
-                                          </ol>
-
-                                 </div>
+                                    </div>
+                                </div>
+                            </div>
                             </div>
                         </div>
 
