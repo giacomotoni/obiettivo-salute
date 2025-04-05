@@ -39,7 +39,7 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #3943b1;
+  --primary-color:                #002575;
   --secondary-color:              #5a6f80;
   --section-bg-color:             #f0f8ff;
   --site-footer-bg-color:         #44525d;
@@ -48,6 +48,7 @@
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
+  --logo-secondary-color:         #26a06d;
 
   --body-font-family:             'Metropolis', sans-serif;
 
@@ -948,7 +949,7 @@ blockquote::before {
 
 .testimonial-section::after {
   content: "";
-  background: var(--custom-btn-bg-color);
+  background: var(--logo-secondary-color);
   border-radius: 50%;
   position: absolute;
   bottom: -110px;
