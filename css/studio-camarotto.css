@@ -670,13 +670,13 @@ strong {
 .about-image {
   border-radius: var(--border-radius-medium);
   display: block;
-  width: 350px;
-  height: 400px;
+  width: 250px;
+  height: 300px;
   object-fit: cover;
 }
 
 .custom-text-block {
-  padding: 60px 40px;
+  padding: 0px 20px;
 }
 
 
